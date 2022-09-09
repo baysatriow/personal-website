@@ -1,0 +1,38 @@
+/* General Fonts */
+@font-face {
+  font-family: "Calibre Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Calibre Regular"),
+    url("../fonts/calibre-cufonfonts-webfont/CalibreRegular.woff")
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Calibre Semibold";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Calibre Semibold"),
+    url("../fonts/calibre-cufonfonts-webfont/CalibreSemibold.woff")
+      format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Mono Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Mono Regular"),
+    url("../fonts/sf-mono-cufonfonts-webfont/SFMonoRegular.woff") format("woff");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SF Mono Light";
+  font-style: normal;
+  font-weight: normal;
+  src: local("SF Mono Light"),
+    url("../fonts/sf-mono-cufonfonts-webfont/SFMonoLight.woff") format("woff");
+  font-display: swap;
+}
