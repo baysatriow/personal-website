@@ -1492,6 +1492,10 @@ footer {
   .feature-text {
     font-size: 12px;
   }
+  .footer-area p {
+    font-size: 15px;
+    word-spacing: 3px;
+  }
 }
 
 @media screen and (max-width: 500px) {
