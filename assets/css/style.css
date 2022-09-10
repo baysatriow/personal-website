@@ -869,3 +869,96 @@ ul {
   color: #ff0077;
   font-family: "SF Mono Light", Arial, Helvetica, sans-serif;
 }
+
+/**************************************
+ * 06. Education Section
+ *************************************/
+
+#education-section {
+  padding: 150px 10px;
+  margin: 0 auto 16vh auto;
+  max-width: 1000px;
+}
+
+.at-symbol {
+  color: #ff0077;
+}
+
+.eduDateRange {
+  color: #bfb099;
+}
+
+#education-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 0px;
+}
+
+#eduList {
+  width: 100%;
+}
+
+#eduList :hover {
+  background: rgba(255, 0, 119, 0.199);
+  color: #f5f5f5;
+}
+
+#edu-bulletpoints {
+  width: 70%;
+}
+
+#edu-bulletpoints ul li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+
+#edu-bulletpoints ul li::before {
+  content: "⦿";
+  position: absolute;
+  left: 0px;
+  color: #ff0077;
+}
+
+.job-button {
+  font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  border: none;
+  padding: 15px 20px;
+  color: #939393;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.edu-button-selected {
+  color: #ff0077;
+  border-left: 1px solid #ff0077;
+  border-radius: 0;
+}
+
+.edu-button-selected :hover {
+  background: none;
+}
+
+#eduDetails {
+  padding-top: 15px;
+  width: 70%;
+}
+
+.eduTitle {
+  font-size: 28px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+
+.eduDateRange {
+  font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding-bottom: 40px;
+}
+
+#eduDetails li {
+  font-size: 19px;
+  padding-bottom: 10px;
+}
