@@ -43,8 +43,7 @@
   /* color */
   --color-primary: #ff0077;
   --color-second: #172051;
-  --color-third: #ea5455;
-  --color-fourth: #ffd460;
+  --color-third: rgba(255, 0, 119, 0.199);
   --color-default: #000000;
   --color-default-white: #ffffff;
 
@@ -1231,9 +1230,6 @@ footer {
  * 10. Responsive Layout
  *************************************/
 
-@media screen and (min-width: 480px) {
-}
-
 /* Tablet Breakpoint */
 
 @media screen and (max-width: 1300px) {
@@ -1308,11 +1304,6 @@ footer {
 
   .project-screenshot {
     width: 250%;
-  }
-
-  button:hover {
-    background: none;
-    color: #ff533d;
   }
 
   #eduList :hover {
@@ -1440,7 +1431,7 @@ footer {
     font-size: 14px;
     font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
     padding-bottom: 30px;
-    color: #ff533d;
+    color: var(--color-primary);
   }
 
   #education-content {
@@ -1476,9 +1467,9 @@ footer {
   }
 
   .edu-button-selected {
-    color: #ff533d;
+    color: var(--color-primary);
     border-left: none;
-    border-bottom: 1px solid #ff533d;
+    border-bottom: 1px solid var(--color-primary);
     border-radius: 0;
   }
 
@@ -1509,7 +1500,36 @@ footer {
     margin: 0 auto 0 auto;
   }
 
+  .navbar-b .navbar-brand span {
+    font-size: 22px;
+  }
+
   #hero-section {
     padding-top: 80px;
+  }
+  .hero-content h3 {
+    font-size: 8px;
+  }
+
+  .hero-content h1 {
+    font-size: 33px;
+  }
+
+  .hero-content h4 {
+    font-size: 12px;
+  }
+  .section-headline {
+    font-family: "Calibre Regular", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    padding-bottom: 40px;
+    font-weight: bold;
+  }
+
+  .buttons {
+    width: 7.6rem;
+    height: 2.8rem;
+    background-color: var(--color-second);
+    border-radius: 10px;
+    font-size: 0.7rem;
   }
 }
