@@ -71,7 +71,7 @@ window.addEventListener("load", function () {
 
     for (let i = 0; i < workExperience.length; i++) {
       document.querySelector("#eduList").innerHTML += `<li data-index=${i}>
-                    <div class="job-button ease-transition">${workExperience[i].companyName}</div>
+                    <div class="edu-button ease-transition">${workExperience[i].companyName}</div>
                 </li>`;
     }
 
@@ -138,7 +138,7 @@ window.addEventListener("load", function () {
   document.addEventListener(
     "click",
     function (event) {
-      if (event.target.matches(".job-button")) {
+      if (event.target.matches(".edu-button")) {
         renderExperienceSection(event);
       }
     },
