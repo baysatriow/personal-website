@@ -1110,3 +1110,48 @@ ul {
   height: 20px;
   vertical-align: middle;
 }
+
+/**************************************
+ * 08. Contact Section
+ *************************************/
+
+#contact-section {
+  padding: 180px 10px;
+  margin: 14vh auto 14vh auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+.contact-section-name {
+  font-size: 16px;
+  font-family: "SF Mono Regular", Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+  color: #ff0077;
+}
+
+.contact-headline {
+  font-family: "Calibre Semibold", Arial, Helvetica, sans-serif;
+  font-size: 68px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.contact-text {
+  padding-bottom: 60px;
+}
+.buttons {
+  width: 11rem;
+  height: 4rem;
+  background-color: #18233c;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+.button-contact {
+  color: #ff0077;
+  border: 1px solid #ff0077;
+}
+
+.button-contact:hover {
+  background-color: rgba(255, 0, 119, 0.199);
+}
