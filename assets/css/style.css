@@ -906,6 +906,14 @@ ul {
   padding: 0 0 20px 0;
 }
 
+#about-content #bio-para p a {
+  color: var(--color-primary);
+}
+
+#about-content #bio-para p a:hover {
+  color: #90005b;
+}
+
 .headshot-container {
   width: 40%;
   margin-left: auto;
