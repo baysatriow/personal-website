@@ -7,8 +7,8 @@ window.addEventListener("load", function () {
       title: "Front End Web Developer",
       dateRange: "August 2022 - October 2022",
       eduDetails: [
-        "Catamyst Bootacmp Intermediate Student Batch 1",
-        "Catamyst Bootacmp Basic Student Batch 1",
+        "Catamyst Bootcamp Intermediate Student Batch 1",
+        "Catamyst Bootcamp Basic Student Batch 1",
       ],
     },
     {
