@@ -5,7 +5,7 @@ window.addEventListener("load", function () {
       companyName: "Catamyst",
       companyURL: "http://catamyst.com",
       title: "Front End Web Developer",
-      dateRange: "August 2022 - November 2022",
+      dateRange: "August 2022 - October 2022",
       eduDetails: [
         "Catamyst Intermediate Student Batch 1",
         "Catamyst Basic Student Batch 1",
