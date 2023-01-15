@@ -3,10 +3,13 @@ window.addEventListener("load", function () {
   const workExperience = [
     {
       companyName: "Catamyst",
-      companyURL: "https://www.catamyst.com/",
+      companyURL: "http://catamyst.com",
       title: "Front End Web Developer",
       dateRange: "August 2022 - Present",
-      eduDetails: ["Details to come..."],
+      eduDetails: [
+        "Catamyst Intermediate Student Batch 1",
+        "Catamyst Basic Student Batch 1",
+      ],
     },
     {
       companyName: "SMK Telkom Lampung",
@@ -28,7 +31,7 @@ window.addEventListener("load", function () {
     },
     {
       companyName: "SMP N 1 Kotaagung",
-      companyURL: "",
+      companyURL: "https://dapo.kemdikbud.go.id/sekolah/714ACC4081D19C2050AC",
       title: "Student",
       dateRange: "July 2017 - June 2020",
       eduDetails: [
@@ -42,7 +45,7 @@ window.addEventListener("load", function () {
     },
     {
       companyName: "SDN 1 Soponyono",
-      companyURL: "",
+      companyURL: "https://dapo.kemdikbud.go.id/sekolah/4F6F8F3B47210264B542",
       title: "Student",
       dateRange: "July 2012 - May 2017",
       eduDetails: [
