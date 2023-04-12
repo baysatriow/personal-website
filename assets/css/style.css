@@ -971,17 +971,6 @@ ul {
   opacity: 0;
   transform: scale(0);
 }
-.headshot-container a:hover:after {
-  opacity: 0.35;
-  transform: scale(1);
-  border-radius: 5px;
-}
-
-.headshot-container.headshot-anm:hover {
-  position: relative;
-  margin-top: -300px;
-  margin-left: 0px;
-}
 
 .tech-skills-list {
   display: grid;
